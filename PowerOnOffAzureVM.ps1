@@ -1,7 +1,7 @@
-﻿#
+#
 # PowerOnOffAzureVM.ps1
 # The purpose of this script is to start and shutdown Azure VMs hosting in the given Azure subscription
-#
+# Author: Kevin Ye
 Function Set-SCCMAzureVM{
 	Param(
 		[Parameter(mandatory=$true)]
